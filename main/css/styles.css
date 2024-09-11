@@ -42,14 +42,24 @@ header {
     padding: 40px 0;
     text-align: center;
     height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+header .container {
+    text-align: center;
+}
+
+/* Centering text in header */
 header h1 {
     font-size: 4em; /* Double the default size */
+    margin: 0;
 }
 
 header p {
     font-size: 1.5em;
+    margin-top: 10px;
 }
 
 .about {
